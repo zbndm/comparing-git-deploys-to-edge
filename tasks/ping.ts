@@ -6,6 +6,7 @@
  *   e.g. deno task --cwd vercel ping https://nextjs-vercel-demo-gules.vercel.app/ andyjiang
  */
 
+
 const url = Deno.args[0];
 const keyPhrase = Deno.args[1];
 
