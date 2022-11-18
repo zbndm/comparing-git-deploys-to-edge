@@ -17,6 +17,7 @@ exports.handler = (event, context, callback) => {
     /*
      * Generate HTTP OK response using 200 status code with HTML body.
      */
+    
     const response = {
         status: '200',
         statusDescription: 'OK',
